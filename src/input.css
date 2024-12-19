@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 1450px) {
+  .container {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
+
+.btn1 {
+  border-radius: 7px;
+  background-color: #3e4d31;
+  padding: 9px 16px;
+  transition: 0.8s;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 137%;
+  color: rgba(255, 255, 255, 0.91);
+}
+.btn1:hover {
+  transform: scale(0.8);
+}
+.green > div {
+  background: linear-gradient(82deg, #5f6308 0%, #302f02 100%);
+}
+.btn2 {
+  border-radius: 6px;
+  background: #3e4d31;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  padding: 9px 16px;
+  transition: 0.8s;
+}
+.btn2:hover {
+  transform: scale(0.8);
+}
